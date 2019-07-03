@@ -19,5 +19,5 @@ beforeEach(() => {
 })
 
 it('creates one LI per commit', () => {
-  expect(wrapped.find('li').length).toBe(2);
+  expect(wrapped.find('li').length).toEqual(2);
 });
